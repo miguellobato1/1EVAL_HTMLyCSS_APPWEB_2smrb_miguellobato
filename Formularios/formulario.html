@@ -7,20 +7,27 @@
 </head>
 <body>
     <from action="" method="get">
-        <p>Correo <input type="email" name="Correo" placeholder="joshua@gmail.com" ></p>
-        <input type="submit" name="enviarcorre" value="Enviar">
-        <p>Usuario:<input type="text" name="usuario" placeholder="ruben"></p>
-        <p>Contraseña: <input type="password" name="passwod" minlenght="6"></p>
-        <input type="submit" name="enviarcontraseñayusuario" value="Enviar">
-        <p>Nombre: <input  type="text" name="Nombre"> </p>
-        <p>Año de nacimento: <input type="number" name="nacimento" min="1900"></p>
-        <p>Sexo: 
-            <input type="radio" name="hm" value="h" >Hombre
-            <input type="radio" name="hm" value="m">Mujer 
-        </p>
-        <p>Fecha denacimento <input type="date" name="fecha y hora"></p>
-        <p>Número de telefono <input tipe="tel" name="telefono">  </p>
-        <p>DNI/NIE <input type="number" name="DNI/NIE" min="00000000" max="99999999"></p>
+        <fieldset>
+            <section class="from-login">
+                <h5>Iniciar sesión</h5>
+                <input class="controls" type="text" name="usuario" value="" placeholder="ruben">
+                <input class="controls" type="password" name="passwod" value="" placeholder="contraseña">
+                <input class="buttons" type="submit" name="" value="Ingrasar">
+                <p><a href="#">¿Has olvidado tu Contraseña?</a></p>
+            </section>
+        </fieldset>
+        <fieldset><legend>Datos personales</legend>
+         <p>Nombre: <input  type="text" name="Nombre"> </p>
+         <p>Año de nacimento: <input type="number" name="nacimento" min="1900"></p>
+         <p>Sexo: 
+             <input type="radio" name="hm" value="h" >Hombre
+             <input type="radio" name="hm" value="m">Mujer 
+         </p>
+         <p>Fecha denacimento <input type="date" name="fecha y hora"></p>
+         <p>Número de telefono <input tipe="tel" name="telefono"></p>
+         <p>DNI/NIE <input type="number" name="DNI/NIE" min="00000000" max="99999999"></p>
+         
+        </fieldset>
     </from>
 </body>
 </html>
