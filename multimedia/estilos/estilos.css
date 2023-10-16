@@ -1,0 +1,15 @@
+/* Esto  esun comentario*/
+h1. {
+    color: blue;
+    background-color: yellow;
+}
+body{
+    background-color: aqua;
+}
+#especial{
+    color: black;
+    background-color: aliceblue;
+}
+div{
+    font-weight: bold;
+}
