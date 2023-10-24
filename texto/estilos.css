@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+.hugo {
+    font-family: 'Play', sans-serif;
+    font-size: 40%;
+ }
+
+@font-face {
+    font-family: Mystery Quest;
+    src: url("../texto/fuentesweb/inconsolata.woff");
+}
+#sespecial{
+    font-family: "MysteryQuest", Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 500%;
+}
+*{
+    background-color: aqua;
+}
+h1, mark{
+    color: yellow;
+    background-color: blue;
+}
+
+
+body{
+background-color: aqua;
+}
+
