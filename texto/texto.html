@@ -19,6 +19,22 @@
             
         }
     </style>-->
+    <style>
+        h1{
+            color: red;
+            background-color: rebeccapurple;
+        }
+        p[class]{
+            background-color: yellow;
+        }
+        p[class=mayusculas]{
+            text-transform: uppercase;
+            background-color: orange;
+        }
+        input[id="aprobar1"]{
+            border: green 3px solid;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
@@ -45,7 +61,14 @@
         </pre>
    </h1>
 
+
     <mark><small><strong>Pablo Neruda</strong></small></mark>
 
 </body>
+<p class="p2">parrafo1</p>
+<p class="p1">parrafo2</p>
+<p class="mayusculas">Parrafo mayusculas</p>
+<form actiom="procesar.php" method="get">
+    <label id="">aprobar<input type="checkbox" name="aprobar" id="aprobar1"></label>
+</form>
 </html>
